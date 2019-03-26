@@ -1,14 +1,14 @@
 package aplicacao;
 
-import chess.ChessMatch;
+import chess.PartidaXadrez;
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		ChessMatch chessMatch = new ChessMatch();
+		PartidaXadrez partidaXadrez = new PartidaXadrez();
 		
-		UI.printBoard(chessMatch.getPiece());
+		UI.printBoard(partidaXadrez.getPeca());
 		
 	}
 
